@@ -1,0 +1,77 @@
+body{
+    background-color: black;
+}
+#contenedor{
+    margin: 200px auto;
+    width: 300px;
+    background-color: rgb(68, 64, 64);
+    height: 400px;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+#pantalla{
+    border-radius: 10px;
+    border-style: solid;
+    height: 60px;
+    background-color: rgb(177, 194, 177);
+    
+   
+}
+
+#resultado{
+    margin: 0;
+    padding: 0;
+    
+    border: 0;
+    font-size: 50px;
+    text-align: right;
+    
+}
+
+#fila1{
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+
+}
+#fila2{
+    display: flex;
+    justify-content: space-between;
+}
+#fila3{
+    display: flex;
+    justify-content: space-between;
+}
+#fila4{
+    display: flex;
+    justify-content: space-between;
+}
+#fila5{
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn{
+    border-radius: 10px;
+    width: 65px;
+    height: 45px;
+   color: white;
+    background-color: rgb(17, 16, 16);
+}
+.operaciones{
+    background-color: tomato;
+    font-size: x-large;
+}
+
+
+.igual{
+    background-color: orange;
+    
+}
+
+.especial{
+    background-color: rgb(77, 77, 77);
+}
